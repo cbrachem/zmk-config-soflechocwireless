@@ -18,7 +18,7 @@
         end_sentence: end_sentence {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp . &kp SPACE &sk LSHIFT>;
+            bindings = <&kp DOT &kp SPACE &sk LSHIFT>;
         };
     };
 
