@@ -13,6 +13,10 @@
     quick-release;
 };
 
+&caps_word {
+    continue-list = <UNDERSCORE MINUS>;
+};
+
 / {
     macros {
         end_sentence: end_sentence {
@@ -44,6 +48,12 @@
         combo_doubleshift {
             timeout-ms = <150>;
             key-positions = <36 49>;
+            bindings = <&caps_word>;
+        };
+
+        combo_shifttab {
+            timeout-ms = <150>;
+            key-positions = <24 36>;
             bindings = <&caps_word>;
         };
     };
